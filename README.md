@@ -1,7 +1,7 @@
 # Skaikru
 
 
-If I want to create a new repository :
+If I want to create a new repository : 
     …or create a new repository on the command line
     echo "# test" >> README.md
     git init
