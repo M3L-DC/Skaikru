@@ -81,9 +81,9 @@ html, body {
 
 
 
-/********************************
- ---------- Page Login ----------
- ********************************/
+/*******************************
+ ---- Page Login & Settings ----
+ *******************************/
 
 
     /**** Formulaire ****/
@@ -92,9 +92,9 @@ html, body {
     border: 2px solid #48a822;
 }
 .form-group {
-    margin: 70px 100px 70px 100px;
+    margin: 50px 100px 50px 100px;
 }
-.checkbox {
+.checkbox { /* Login */
     text-align: center;
     margin-bottom: 25px;
 }
@@ -102,10 +102,7 @@ html, body {
     margin-left: 230px;
     margin-bottom: 25px;
 }
-
-
-/*********************************
- --------- Page Settings ---------
- *********************************/
-
-
+#upload { /* Settings */
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
