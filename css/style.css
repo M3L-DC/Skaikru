@@ -35,12 +35,12 @@ html, body {
 }
 
 
+
 /********************************
  ------ Page index/accueil ------
  ********************************/
 
     /**** Main container ****/
-
 #main_container {
     height: auto;
     width: auto;
@@ -48,7 +48,8 @@ html, body {
     font-family: Verdana, sans-serif;
 }
 
-.nav li a { /* onglets */
+    /**** Onglets ****/
+.nav li a {
     color: #48a822;
     background-color: rgba(72, 168, 34, 0.25);
     border : 2px solid #48a822; /*#9EA0A1*/
@@ -63,8 +64,9 @@ html, body {
     border : 2px solid #48a822; /*#9EA0A1*/
     border-bottom: solid white;
 }
-/* onglet actif */
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus,
+.nav-tabs>li.active>a:hover { /* onglet actif */
     background-color: rgba(251, 251, 251, 0.25);
     border : 2px solid #48a822; /*#9EA0A1*/
     border-bottom: solid white;
@@ -72,11 +74,19 @@ html, body {
 .nav-tabs { /* correspond au ul */
     border-bottom: none;
 }
-.tab-content { /* contenue des onglets */
+
+    /**** contenue des onglets ****/
+.tab-content {
     background-color: white;
     padding: 5px 30px 5px 30px;
     border : 2px solid #48a822;
     animation: fadeEffect 1s;
+}
+
+#form-date label {
+    display: inline-block;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
 

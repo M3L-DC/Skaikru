@@ -18,7 +18,8 @@
         <a href="index.html"> <img src="img/Logo/logo-titre.svg" id="logo" alt="logo"> </a>
         <div id="menu">
             <a href="html/login.html"> <img src="img/items/logo-person-black.png" alt="logo-person"> Login </a>
-            <a href="html/settings.html"> <img src="img/items/logo-settings-black.png" alt="logo-settings"> Settings </a>
+            <a href="html/settings.html"> <img src="img/items/logo-settings-black.png" alt="logo-settings"> Settings
+            </a>
         </div>
     </nav>
 </header>
@@ -26,7 +27,8 @@
 <div id="main_container">
     <!-- Tabs to refine the researche -->
     <ul class="nav nav-tabs">
-        <li><a data-toggle="tab" href="#transparent" style="height:39.5px; background-color:white; border-bottom:solid white;"></a></li>
+        <li><a data-toggle="tab" href="#transparent"
+               style="height:39.5px; background-color:white; border-bottom:solid white;"></a></li>
         <li class="actif"><a data-toggle="tab" href="#onglet1">Time</a></li>
         <li><a data-toggle="tab" href="#onglet2">Feeling</a></li>
         <li><a data-toggle="tab" href="#onglet3">Place</a></li>
@@ -39,6 +41,24 @@
         </div>
         <div id="onglet1" class="tab-pane fade">
             <h3>Choose a date</h3>
+            <form id="form-date" action="#">
+                <label>
+                    Start date of the search:<br>
+                    <input type="date" name="bday" max="1979-12-31">
+                </label>
+                <label>
+                    End date of the search:<br>
+                    <input type="date" name="bday" min="2000-01-02">
+                </label><br><br>
+                <input type="submit">
+            </form>
+            <!--form>
+                <div class="input-append date form_datetime">
+                    <input type="date" value="" title="Choose a date">
+                    <span class="add-on"><img src="img/items/logo-date.png"></span>
+                </div>
+            </form-->
+
         </div>
         <div id="onglet2" class="tab-pane fade">
             <h3>Menu 1</h3>
