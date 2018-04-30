@@ -20,6 +20,7 @@
 </header>
 <div id="form_login">
     <form action="../php/login.php">
+        <h1>Settings</h1>
         <div class="form-group">
             <label for="First-name">First Name:</label>
             <input type="text" class="form-control" id="First-name" required>
@@ -37,8 +38,10 @@
             <input type="password" class="form-control" id="pwd" required>
         </div>
         <div id="upload">
-            <label> Importer un fichier : </label>
-            <input type="file" name="upload">
+            <label> Importer un fichier xls : </label>
+            <input type="file" name="upload-xls">
+            <label> Importer une image : </label>
+            <input type="file" name="upload-img">
         </div>
         <button type="submit" class="btn btn-default">Submit</button>
     </form>
